@@ -1,0 +1,21 @@
+// short syntax
+// const person1 = {
+//     firstName : "Harshit",
+//     id : 1,
+//      about :() =>{
+//          console.log(this.firstName , this.id );
+//      }
+// }
+
+// person1.about(person1);
+
+
+const person1 = {
+    firstName : "Harshit",
+    id : 1,
+     about(){
+         console.log(this.firstName , this.id );
+     }
+}
+
+person1.about();
